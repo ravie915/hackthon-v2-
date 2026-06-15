@@ -1,0 +1,19 @@
+{
+  "app_name": "ClarityNet",
+  "version": "2.0",
+  "admin_password": "admin123",
+  "supported_languages": ["en", "es", "vi", "zh", "ar"],
+  "programs": ["SNAP", "Medicaid", "LIHEAP"],
+  "notifications": {
+    "enabled": true,
+    "email_reminders": true,
+    "sms_reminders": false
+  },
+  "features": {
+    "voice_input": true,
+    "document_scanner": true,
+    "appointment_scheduler": true,
+    "application_tracker": true,
+    "offline_mode": false
+  }
+}
